@@ -1,5 +1,7 @@
 # Kos Keluarga — Website & Sistem Pengelolaan Kos
 
+[![CI](https://github.com/Emil-02/kos-keluarga/actions/workflows/ci.yml/badge.svg)](https://github.com/Emil-02/kos-keluarga/actions/workflows/ci.yml)
+
 Website kos lengkap untuk satu lokasi dengan sewa **harian, mingguan, dan bulanan**:
 
 - **Website publik**: beranda, info kamar, fasilitas, peraturan, kontak, tombol WhatsApp.
@@ -90,3 +92,7 @@ supabase/
 - Operasi penting (setujui booking, verifikasi pembayaran, check-out, perpanjang) dijalankan sebagai fungsi database yang memeriksa hak akses.
 - KTP, bukti bayar, dan foto keluhan disimpan di bucket privat dan hanya ditampilkan lewat tautan sementara.
 - Penghuni tidak bisa mengubah role-nya sendiri (hanya kolom nama, HP, alamat).
+
+## Lisensi
+
+[MIT](LICENSE) © 2026 Emil Rahmat
